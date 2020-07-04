@@ -1,8 +1,8 @@
-
 {
     "plugins": [
-        "@babel/plugin-transform-block-scoping",
-        "@babel/plugin-transform-classes",
-        "@babel/plugin-transform-template-literals"
-    ] 
+        "@babel/plugin-proposal-class-properties"
+    ],
+    "presets": [
+        "@babel/preset-env"
+    ]
 }
