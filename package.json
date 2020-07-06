@@ -12,6 +12,11 @@
   },
   "author": "Max",
   "license": "ISC",
+  "browserslist": [
+    "last 3 chrome versions",
+    "last 3 firefox versions",
+    "last 3 edge versions"
+  ],
   "bugs": {
     "url": "https://github.com/maxsherepot/build-sandbox/issues"
   },
@@ -24,5 +29,8 @@
     "@babel/plugin-transform-classes": "^7.10.4",
     "@babel/plugin-transform-template-literals": "^7.10.4",
     "@babel/preset-env": "^7.10.4"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
   }
 }
